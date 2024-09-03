@@ -1,0 +1,25 @@
+<%= link_to("Back to Book Collection", books_path) %>
+
+<div>
+    <h2><%= @book.title %><h2>
+
+    <table style="width: 100%;">
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price ($)</th>
+            <th>Published-Date</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td style="text-align: center"><%= @book.title %></td>
+            <td style="text-align: center"><%= @book.author %></td>
+            <td style="text-align: center"><%= @book.price %></td>
+            <td style="text-align: center"><%= @book.publish %></td>
+            <td style="text-align: center">
+                <%= link_to("Edit", edit_book_path(@book)) %>
+                <%= link_to("Delete", delete_book_path(@book)) %>
+            </td>
+        </tr>
+    </table>
+</div>

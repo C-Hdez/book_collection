@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
-  root "main#index"
+  root "books#index"
 
-  get 'books/index'
-  get 'books/new'
-  get 'books/edit'
-  get 'books/delete'
-  get 'books/show'
+
+  resources :books do
+    member do
+      get :delete
+    end
+  end
+
+
 
 
 
