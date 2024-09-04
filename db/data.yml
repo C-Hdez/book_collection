@@ -1,0 +1,60 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - 2024-09-03 02:19:21.091006000 Z
+    - 2024-09-03 02:19:21.091006000 Z
+
+---
+books:
+  columns:
+  - id
+  - title
+  - author
+  - price
+  - publish
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Edited Name
+    - Carlos
+    - !ruby/object:BigDecimal 18:0.43e1
+    - 2024-12-10 00:00:00.000000000 Z
+    - 2024-09-03 04:00:02.523811000 Z
+    - 2024-09-03 04:26:42.281957000 Z
+  - - 2
+    - Test
+    - Carlos
+    - !ruby/object:BigDecimal 18:0.43e1
+    - 2024-12-10 00:00:00.000000000 Z
+    - 2024-09-03 04:01:48.333931000 Z
+    - 2024-09-03 04:01:48.333931000 Z
+  - - 4
+    - The Book Thief
+    - Markus Zusak
+    - !ruby/object:BigDecimal 18:0.783e1
+    - 2005-09-01 00:00:00.000000000 Z
+    - 2024-09-03 04:54:50.446907000 Z
+    - 2024-09-03 04:54:50.446907000 Z
+  - - 5
+    - All The Light We Cannot See
+    - Anthony Doerr
+    - !ruby/object:BigDecimal 18:0.1193e2
+    - 2014-05-06 00:00:00.000000000 Z
+    - 2024-09-03 04:56:17.492925000 Z
+    - 2024-09-03 04:56:17.492925000 Z
+  - - 9
+    - Add
+    - ''
+    - 
+    - 
+    - 2024-09-03 17:59:07.996106000 Z
+    - 2024-09-03 17:59:07.996106000 Z
